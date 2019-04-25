@@ -21,7 +21,7 @@ public class HelloController {
     }
 
 
-    @PostMapping("/book")
+    @PostMapping("/book1")
     public void addBook(Book book, Author author) {
         System.out.println(book);
         System.out.println(author);
