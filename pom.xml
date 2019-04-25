@@ -65,14 +65,17 @@
 			<artifactId>spring-tx</artifactId>
 			<version>4.1.6.RELEASE</version>
 		</dependency>
-
-		<!--test-->
+		<!--security start-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
+		</dependency>
+		<!--security end-->
 	</dependencies>
 
 	<build>
