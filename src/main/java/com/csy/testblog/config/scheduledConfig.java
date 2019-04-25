@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-@Component
+//@Component
 public class scheduledConfig {
 
     @Scheduled(fixedRate = 2000)
