@@ -5,7 +5,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.Date;
 
-@Component
+//
+// @Component
 public class scheduledCronConfig {
     @Scheduled(cron = "0/5 * * * * *")
     public void cron() {
